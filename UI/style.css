@@ -171,3 +171,61 @@ p {
   color: #FFFFFF;
   background-color: transparent;
 }
+
+/* About Us Section */
+.About-us {
+  background-color: rgba(26, 11, 46, 1);
+  padding: 50px 200px 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  gap: 80px;
+}
+
+.About-part {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.About-header {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.About-description {
+  line-height: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+span {
+  color: #b7b1b1;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #312828;
+}
+
+.About-item {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  gap: 80px;
+}
+
+.item-point {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 58px;
+  color: #00FF88;
+}
+
+.item-description {
+  padding: 20px 0;
+}
+
+.item-techWave {
+  background-color: rgba(35, 14, 61, 1);
+}
